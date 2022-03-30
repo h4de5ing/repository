@@ -3,12 +3,13 @@
   <groupId>com.github.h4de5ing.vanserialport</groupId>
   <artifactId>vanserialport</artifactId>
   <versioning>
-    <release>1.0-20220308</release>
+    <release>1.0-20220330</release>
     <versions>
       <version>1.0-20220209</version>
       <version>1.0-20220225</version>
       <version>1.0-20220308</version>
+      <version>1.0-20220330</version>
     </versions>
-    <lastUpdated>20220308082439</lastUpdated>
+    <lastUpdated>20220330074930</lastUpdated>
   </versioning>
 </metadata>
