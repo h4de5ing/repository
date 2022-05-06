@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.serialportlib",
+    "module": "serialportlib",
+    "version": "1.0-20220506",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialportlib-1.0-20220506.aar",
+          "url": "serialportlib-1.0-20220506.aar",
+          "size": 47417,
+          "sha512": "a2595d82b2b8786b72739f8447117e0e9c66cbe8dbc2b3854ca83e0178363b8fd1b981df5f9e564648f8e95346243535f25b1e1f24e375c49630a936bdb2dfdb",
+          "sha256": "f361cbecdf93f88280de53815cbc592cdf087beffc85b8d7520a68d86d4c5450",
+          "sha1": "3635e5bbe6948977822372c00b4ff8eae7a75647",
+          "md5": "4ea83ee52ed4870b7f7322e114e3910b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialportlib-1.0-20220506.aar",
+          "url": "serialportlib-1.0-20220506.aar",
+          "size": 47417,
+          "sha512": "a2595d82b2b8786b72739f8447117e0e9c66cbe8dbc2b3854ca83e0178363b8fd1b981df5f9e564648f8e95346243535f25b1e1f24e375c49630a936bdb2dfdb",
+          "sha256": "f361cbecdf93f88280de53815cbc592cdf087beffc85b8d7520a68d86d4c5450",
+          "sha1": "3635e5bbe6948977822372c00b4ff8eae7a75647",
+          "md5": "4ea83ee52ed4870b7f7322e114e3910b"
+        }
+      ]
+    }
+  ]
+}
