@@ -3,14 +3,15 @@
   <groupId>com.github.h4de5ing.okpermission</groupId>
   <artifactId>OKPermission</artifactId>
   <versioning>
-    <latest>1.0-20220506</latest>
-    <release>1.0-20220506</release>
+    <latest>1.0-20220712</latest>
+    <release>1.0-20220712</release>
     <versions>
       <version>1.0-20210422</version>
       <version>1.0-20210423</version>
       <version>1.0-20211103</version>
       <version>1.0-20220506</version>
+      <version>1.0-20220712</version>
     </versions>
-    <lastUpdated>20220506012510</lastUpdated>
+    <lastUpdated>20220712075647</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.zxing",
+    "module": "zxing",
+    "version": "1.0-20220712",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zxing-1.0-20220712.aar",
+          "url": "zxing-1.0-20220712.aar",
+          "size": 50914,
+          "sha512": "609dbc201c6724f75cb511eaab7469fa1abb18d8e0851fe6c4568be8bc18ee5ae81e2416ac7f0b920322f56fd4b54a004c84979dbb175aa3119b2fe180117961",
+          "sha256": "f357dd7713ed1b6d1a544af6620014ab98b95b178f1418939e736d340fd2ba39",
+          "sha1": "1dce2d29140b6cca5fe064ea68d134092567b71f",
+          "md5": "a00d189e0d053ab0f3c877a128384130"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zxing-1.0-20220712.aar",
+          "url": "zxing-1.0-20220712.aar",
+          "size": 50914,
+          "sha512": "609dbc201c6724f75cb511eaab7469fa1abb18d8e0851fe6c4568be8bc18ee5ae81e2416ac7f0b920322f56fd4b54a004c84979dbb175aa3119b2fe180117961",
+          "sha256": "f357dd7713ed1b6d1a544af6620014ab98b95b178f1418939e736d340fd2ba39",
+          "sha1": "1dce2d29140b6cca5fe064ea68d134092567b71f",
+          "md5": "a00d189e0d053ab0f3c877a128384130"
+        }
+      ]
+    }
+  ]
+}
