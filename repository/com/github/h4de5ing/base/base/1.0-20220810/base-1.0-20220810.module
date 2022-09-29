@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.base",
+    "module": "base",
+    "version": "1.0-20220810",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "base-1.0-20220810.aar",
+          "url": "base-1.0-20220810.aar",
+          "size": 8723,
+          "sha512": "3bbe8e585a1dd5395c1d15e8e0e305fd0f9f3eb6ffe440b7cee0cdf7f1ed16ea47eea6bc79695a95031bbb41bc5412eb5e8c6666db606e1fa086f2caa7a3e587",
+          "sha256": "e2689729b897dc6e71e5d23f4df298f3362d1d86bcd1866c6ca05c953369e72f",
+          "sha1": "4106df08a8a9b98d0f5b5c313f1f2fbce3196d77",
+          "md5": "0f6bb127cd7da9d5f9cacf4c378ade36"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-1.0-20220810.aar",
+          "url": "base-1.0-20220810.aar",
+          "size": 8723,
+          "sha512": "3bbe8e585a1dd5395c1d15e8e0e305fd0f9f3eb6ffe440b7cee0cdf7f1ed16ea47eea6bc79695a95031bbb41bc5412eb5e8c6666db606e1fa086f2caa7a3e587",
+          "sha256": "e2689729b897dc6e71e5d23f4df298f3362d1d86bcd1866c6ca05c953369e72f",
+          "sha1": "4106df08a8a9b98d0f5b5c313f1f2fbce3196d77",
+          "md5": "0f6bb127cd7da9d5f9cacf4c378ade36"
+        }
+      ]
+    }
+  ]
+}

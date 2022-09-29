@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.netlib",
+    "module": "netlib",
+    "version": "1.0-20220810",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "netlib-1.0-20220810.aar",
+          "url": "netlib-1.0-20220810.aar",
+          "size": 42823,
+          "sha512": "337825f49410318934fa97aeda32dcdb1dd9415162f776ccd70f72277cd9db5df12a8451ea873c8b861a59d598a69cfe76ff6e98618df3452c23d3ae2d6960cd",
+          "sha256": "d8640f348db547bbd906096e6344f16b609736a0159f06c9a4b5ae810808a836",
+          "sha1": "00468a219f99f2e3ec480fdd5c327a4df2f8c2e4",
+          "md5": "0378cc8d28d134d81ba75e853ea233ef"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-1.0-20220810.aar",
+          "url": "netlib-1.0-20220810.aar",
+          "size": 42823,
+          "sha512": "337825f49410318934fa97aeda32dcdb1dd9415162f776ccd70f72277cd9db5df12a8451ea873c8b861a59d598a69cfe76ff6e98618df3452c23d3ae2d6960cd",
+          "sha256": "d8640f348db547bbd906096e6344f16b609736a0159f06c9a4b5ae810808a836",
+          "sha1": "00468a219f99f2e3ec480fdd5c327a4df2f8c2e4",
+          "md5": "0378cc8d28d134d81ba75e853ea233ef"
+        }
+      ]
+    }
+  ]
+}
