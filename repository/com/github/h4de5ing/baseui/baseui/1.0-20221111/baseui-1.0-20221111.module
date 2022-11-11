@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.baseui",
+    "module": "baseui",
+    "version": "1.0-20221111",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "baseui-1.0-20221111.aar",
+          "url": "baseui-1.0-20221111.aar",
+          "size": 132584,
+          "sha512": "f359ac70a8486ae1cd66dd52bc967a2bb4fae43226de1e10b6ce4f8bd36fdc811972816f780f193a5488ce0ccedf3c1c485d96dfa2ed8353272d1c2098c60617",
+          "sha256": "5a765c928ffa639e643551cf912bd0c4b8167590ac22459d82f3c5738b805e98",
+          "sha1": "014cb7e2546a12aef38a98acb4a505ba0baadb22",
+          "md5": "34cf1d74ed0eb8c33eb6a2583fa20acc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "baseui-1.0-20221111.aar",
+          "url": "baseui-1.0-20221111.aar",
+          "size": 132584,
+          "sha512": "f359ac70a8486ae1cd66dd52bc967a2bb4fae43226de1e10b6ce4f8bd36fdc811972816f780f193a5488ce0ccedf3c1c485d96dfa2ed8353272d1c2098c60617",
+          "sha256": "5a765c928ffa639e643551cf912bd0c4b8167590ac22459d82f3c5738b805e98",
+          "sha1": "014cb7e2546a12aef38a98acb4a505ba0baadb22",
+          "md5": "34cf1d74ed0eb8c33eb6a2583fa20acc"
+        }
+      ]
+    }
+  ]
+}
