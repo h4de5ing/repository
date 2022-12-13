@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.filepicker",
+    "module": "filepicker",
+    "version": "1.0-20221213",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "filepicker-1.0-20221213.aar",
+          "url": "filepicker-1.0-20221213.aar",
+          "size": 44940,
+          "sha512": "daec396b2881c22175024b4fb777a4d854035dfa1a047b9556abb2627f6296fcc35fea4d4737e5c06d83b13544a52a1300d6c046633e45d2a35e8261f467bc97",
+          "sha256": "dd1c0dae3f8533ea8f905c0ce21c1e228238514449ab19950f9b40b1617be865",
+          "sha1": "50127f920299081d9abf6509bf58e44d7276b8ca",
+          "md5": "575d553265d098033f2b4e8c117bcca5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "filepicker-1.0-20221213.aar",
+          "url": "filepicker-1.0-20221213.aar",
+          "size": 44940,
+          "sha512": "daec396b2881c22175024b4fb777a4d854035dfa1a047b9556abb2627f6296fcc35fea4d4737e5c06d83b13544a52a1300d6c046633e45d2a35e8261f467bc97",
+          "sha256": "dd1c0dae3f8533ea8f905c0ce21c1e228238514449ab19950f9b40b1617be865",
+          "sha1": "50127f920299081d9abf6509bf58e44d7276b8ca",
+          "md5": "575d553265d098033f2b4e8c117bcca5"
+        }
+      ]
+    }
+  ]
+}
