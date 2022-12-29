@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.base",
+    "module": "base",
+    "version": "1.0-20221229",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-1.0-20221229.aar",
+          "url": "base-1.0-20221229.aar",
+          "size": 16489,
+          "sha512": "b93751f97105fa317e934ce326060ce7601ff40cf97704ca5bd69f68ae597a0851b6008d3c1cda4b17a61520c434b78d8c2b189fb9da0b29ef2fde2e506ba4f3",
+          "sha256": "e404823f242a635a277aa7a99f9725cb21e6fef674a9a7628a384d581da825ff",
+          "sha1": "f76ccb156dbfb9785b055318fd392a8bb0547eac",
+          "md5": "1f5f7dc22be6df880ef35e594d879c4b"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-1.0-20221229.aar",
+          "url": "base-1.0-20221229.aar",
+          "size": 16489,
+          "sha512": "b93751f97105fa317e934ce326060ce7601ff40cf97704ca5bd69f68ae597a0851b6008d3c1cda4b17a61520c434b78d8c2b189fb9da0b29ef2fde2e506ba4f3",
+          "sha256": "e404823f242a635a277aa7a99f9725cb21e6fef674a9a7628a384d581da825ff",
+          "sha1": "f76ccb156dbfb9785b055318fd392a8bb0547eac",
+          "md5": "1f5f7dc22be6df880ef35e594d879c4b"
+        }
+      ]
+    }
+  ]
+}
