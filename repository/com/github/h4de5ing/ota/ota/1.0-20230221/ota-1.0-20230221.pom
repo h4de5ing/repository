@@ -42,11 +42,5 @@
       <version>1.0-20211125</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>com.android.systemlib</groupId>
-      <artifactId>systemlib</artifactId>
-      <version>1.0-20230217</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>

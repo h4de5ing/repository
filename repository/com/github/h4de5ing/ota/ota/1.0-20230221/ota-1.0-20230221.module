@@ -34,11 +34,11 @@
         {
           "name": "ota-1.0-20230221.aar",
           "url": "ota-1.0-20230221.aar",
-          "size": 72693,
-          "sha512": "b3c4bc8f661ee0d993e6e5fe4bd56aa1b58b4353bddfe27ed93846a39ca8d047b6b55cb78c534e844bbdcba5681b1548dcb94c8a7339700c9a8060255cd65ee3",
-          "sha256": "bd0e27f965905683b2228570b83fc27a6651db7a54fe3b0426785b0b460f7a36",
-          "sha1": "c0c9d51e33c459ae15c61c18da99fd747fe798dc",
-          "md5": "62afd514dec6294535e7420b71822324"
+          "size": 74470,
+          "sha512": "c845b795fbd061d93bb42a6634e68b03dfd47a82f28bc2c0669b9e345caf969966d893c36e0d8764a716d7b69e9b0adf7125ff2c5cbdb5e12aaad7664921b3a9",
+          "sha256": "36bdee6952437194ca34bde05835d8e5da710cc23a68ca4134cd2701aa68da35",
+          "sha1": "7611724ecc053e8a7587e7a6462de478f6eced3c",
+          "md5": "063b855f8feb25e24fd5141d175d741d"
         }
       ]
     },
@@ -79,13 +79,6 @@
           }
         },
         {
-          "group": "com.android.systemlib",
-          "module": "systemlib",
-          "version": {
-            "requires": "1.0-20230217"
-          }
-        },
-        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
@@ -97,11 +90,11 @@
         {
           "name": "ota-1.0-20230221.aar",
           "url": "ota-1.0-20230221.aar",
-          "size": 72693,
-          "sha512": "b3c4bc8f661ee0d993e6e5fe4bd56aa1b58b4353bddfe27ed93846a39ca8d047b6b55cb78c534e844bbdcba5681b1548dcb94c8a7339700c9a8060255cd65ee3",
-          "sha256": "bd0e27f965905683b2228570b83fc27a6651db7a54fe3b0426785b0b460f7a36",
-          "sha1": "c0c9d51e33c459ae15c61c18da99fd747fe798dc",
-          "md5": "62afd514dec6294535e7420b71822324"
+          "size": 74470,
+          "sha512": "c845b795fbd061d93bb42a6634e68b03dfd47a82f28bc2c0669b9e345caf969966d893c36e0d8764a716d7b69e9b0adf7125ff2c5cbdb5e12aaad7664921b3a9",
+          "sha256": "36bdee6952437194ca34bde05835d8e5da710cc23a68ca4134cd2701aa68da35",
+          "sha1": "7611724ecc053e8a7587e7a6462de478f6eced3c",
+          "md5": "063b855f8feb25e24fd5141d175d741d"
         }
       ]
     }
