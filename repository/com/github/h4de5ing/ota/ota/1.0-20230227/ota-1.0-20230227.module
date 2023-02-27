@@ -34,11 +34,11 @@
         {
           "name": "ota-1.0-20230227.aar",
           "url": "ota-1.0-20230227.aar",
-          "size": 88100,
-          "sha512": "0f9bc77899448bba01a8c44d27b039a7e9b5edd09e814479f30c9ac2a8fcf51d9926683c20a1dc2aca85710bcc4245552724e17afcb59d8a7f40924deb5ba3f9",
-          "sha256": "738a3e8afeca417a1518b7d381b3206d284cc899081f177e64ee2d9c3bd37cd1",
-          "sha1": "45d090690a84dda99dcd4f52bef6c7ecb578b2d3",
-          "md5": "bacda962d8db0aa2b168eea616909c93"
+          "size": 88076,
+          "sha512": "b7399b6681ba6e1cc4fbd046b47fc3daa95c82a13207e66f14081846199a650808dc84e51d14a3e390ee84f339b7084176380188aca5fe4c034f846b0b0724b7",
+          "sha256": "1dcc8597e8977bfbe24ea12607d708393c0ddc4883e8002775bbdcdf060b6593",
+          "sha1": "56e02a147066dff7d183f52ace87e2217e9fc92d",
+          "md5": "2da7b2f65f10e1c93ffd1459cabf27a4"
         }
       ]
     },
@@ -65,17 +65,17 @@
           }
         },
         {
-          "group": "repository",
-          "module": "GsonCommon",
+          "group": "com.github.h4de5ing.netlib",
+          "module": "netlib",
           "version": {
-            "requires": "unspecified"
+            "requires": "1.0-20230227"
           }
         },
         {
-          "group": "repository",
-          "module": "NetLib",
+          "group": "com.github.h4de5ing.gsoncommon",
+          "module": "gsoncommon",
           "version": {
-            "requires": "unspecified"
+            "requires": "1.0-20211125"
           }
         },
         {
@@ -90,11 +90,11 @@
         {
           "name": "ota-1.0-20230227.aar",
           "url": "ota-1.0-20230227.aar",
-          "size": 88100,
-          "sha512": "0f9bc77899448bba01a8c44d27b039a7e9b5edd09e814479f30c9ac2a8fcf51d9926683c20a1dc2aca85710bcc4245552724e17afcb59d8a7f40924deb5ba3f9",
-          "sha256": "738a3e8afeca417a1518b7d381b3206d284cc899081f177e64ee2d9c3bd37cd1",
-          "sha1": "45d090690a84dda99dcd4f52bef6c7ecb578b2d3",
-          "md5": "bacda962d8db0aa2b168eea616909c93"
+          "size": 88076,
+          "sha512": "b7399b6681ba6e1cc4fbd046b47fc3daa95c82a13207e66f14081846199a650808dc84e51d14a3e390ee84f339b7084176380188aca5fe4c034f846b0b0724b7",
+          "sha256": "1dcc8597e8977bfbe24ea12607d708393c0ddc4883e8002775bbdcdf060b6593",
+          "sha1": "56e02a147066dff7d183f52ace87e2217e9fc92d",
+          "md5": "2da7b2f65f10e1c93ffd1459cabf27a4"
         }
       ]
     }
