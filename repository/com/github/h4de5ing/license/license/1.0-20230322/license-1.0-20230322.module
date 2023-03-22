@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.license",
+    "module": "license",
+    "version": "1.0-20230322",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "license-1.0-20230322.aar",
+          "url": "license-1.0-20230322.aar",
+          "size": 4826,
+          "sha512": "970f6938c6fa691872899787b49441babed147ca9b4b835613244737187f0a6ef11bc9ee2860772c04c04142ed5a3587dc1087aa555687644500362251640211",
+          "sha256": "49c29bb10ed590755ffda3e9abc3b52ce59f8e53737d924288ff4c1138259760",
+          "sha1": "81f2cc280df8e233f91911e3c67e36de19279210",
+          "md5": "2078f0dfe4d71835519f25c39ea165df"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "license-1.0-20230322.aar",
+          "url": "license-1.0-20230322.aar",
+          "size": 4826,
+          "sha512": "970f6938c6fa691872899787b49441babed147ca9b4b835613244737187f0a6ef11bc9ee2860772c04c04142ed5a3587dc1087aa555687644500362251640211",
+          "sha256": "49c29bb10ed590755ffda3e9abc3b52ce59f8e53737d924288ff4c1138259760",
+          "sha1": "81f2cc280df8e233f91911e3c67e36de19279210",
+          "md5": "2078f0dfe4d71835519f25c39ea165df"
+        }
+      ]
+    }
+  ]
+}

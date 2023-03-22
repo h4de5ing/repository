@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.netlib",
+    "module": "netlib",
+    "version": "2.0-20230322",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20230322.aar",
+          "url": "netlib-2.0-20230322.aar",
+          "size": 50320,
+          "sha512": "278c63627639b71b4fda3610785ff8439a770a2ff87cd607de5cd2d339e84072b6e3c5ffcb3d0b8de59ef8a538c4281544528fa0fc099c07c685ce58936431e9",
+          "sha256": "93423820012278d18b1b1b705deb92123e6ff09bc0b646a8a4a1b6cac636b1af",
+          "sha1": "160a41e197c43e014f600e67d03a3478e9196d9e",
+          "md5": "09cf173cf3e63914f9d89fb6b6c84111"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20230322.aar",
+          "url": "netlib-2.0-20230322.aar",
+          "size": 50320,
+          "sha512": "278c63627639b71b4fda3610785ff8439a770a2ff87cd607de5cd2d339e84072b6e3c5ffcb3d0b8de59ef8a538c4281544528fa0fc099c07c685ce58936431e9",
+          "sha256": "93423820012278d18b1b1b705deb92123e6ff09bc0b646a8a4a1b6cac636b1af",
+          "sha1": "160a41e197c43e014f600e67d03a3478e9196d9e",
+          "md5": "09cf173cf3e63914f9d89fb6b6c84111"
+        }
+      ]
+    }
+  ]
+}

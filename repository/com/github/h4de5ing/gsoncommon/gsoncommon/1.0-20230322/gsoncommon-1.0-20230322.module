@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.gsoncommon",
+    "module": "gsoncommon",
+    "version": "1.0-20230322",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gsoncommon-1.0-20230322.aar",
+          "url": "gsoncommon-1.0-20230322.aar",
+          "size": 18299,
+          "sha512": "68e7a70e8f9938b56f4ff423f9479082b2352163b3c108358df96c6c9bab2aaa771a0669452fdd9e36f9e0205d5ab616759dec8207e4a737994f09516bbe1dde",
+          "sha256": "9750dd1ba8d54067e09ddb45c41d67b1fabe1da2af9283a593a04e388f20fbe2",
+          "sha1": "4ddc17431170f7b09216139d5755e27976f35d2d",
+          "md5": "8029ca07e667416d95ef73fda43fc078"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gsoncommon-1.0-20230322.aar",
+          "url": "gsoncommon-1.0-20230322.aar",
+          "size": 18299,
+          "sha512": "68e7a70e8f9938b56f4ff423f9479082b2352163b3c108358df96c6c9bab2aaa771a0669452fdd9e36f9e0205d5ab616759dec8207e4a737994f09516bbe1dde",
+          "sha256": "9750dd1ba8d54067e09ddb45c41d67b1fabe1da2af9283a593a04e388f20fbe2",
+          "sha1": "4ddc17431170f7b09216139d5755e27976f35d2d",
+          "md5": "8029ca07e667416d95ef73fda43fc078"
+        }
+      ]
+    }
+  ]
+}
