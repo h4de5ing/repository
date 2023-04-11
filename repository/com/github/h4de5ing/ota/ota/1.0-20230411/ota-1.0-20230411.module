@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.ota",
+    "module": "ota",
+    "version": "1.0-20230411",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ota-1.0-20230411.aar",
+          "url": "ota-1.0-20230411.aar",
+          "size": 88627,
+          "sha512": "eb636d7686158e4ec971887d01c9cebc81f21a97ca8000f5269783971b3d31d4721423487c3d9b2ca6c0c8e9c1c7630d308f9e7c348fb7fffe56e09b3b95348a",
+          "sha256": "b9eaf2326b39ec061fc4cf6c4b2fcca9614e2736bf99e8d96086e1422643763c",
+          "sha1": "453d09646b9fa7f1cdfbd2f74463e629169ee742",
+          "md5": "31176a8ee7e22644336c8e45a9a69e5a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.github.h4de5ing.netlib",
+          "module": "netlib",
+          "version": {
+            "requires": "1.0-20230227"
+          }
+        },
+        {
+          "group": "com.github.h4de5ing.gsoncommon",
+          "module": "gsoncommon",
+          "version": {
+            "requires": "1.0-20211125"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ota-1.0-20230411.aar",
+          "url": "ota-1.0-20230411.aar",
+          "size": 88627,
+          "sha512": "eb636d7686158e4ec971887d01c9cebc81f21a97ca8000f5269783971b3d31d4721423487c3d9b2ca6c0c8e9c1c7630d308f9e7c348fb7fffe56e09b3b95348a",
+          "sha256": "b9eaf2326b39ec061fc4cf6c4b2fcca9614e2736bf99e8d96086e1422643763c",
+          "sha1": "453d09646b9fa7f1cdfbd2f74463e629169ee742",
+          "md5": "31176a8ee7e22644336c8e45a9a69e5a"
+        }
+      ]
+    }
+  ]
+}
