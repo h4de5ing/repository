@@ -35,11 +35,11 @@
         {
           "name": "ota-1.0-20230417.aar",
           "url": "ota-1.0-20230417.aar",
-          "size": 88627,
-          "sha512": "eb636d7686158e4ec971887d01c9cebc81f21a97ca8000f5269783971b3d31d4721423487c3d9b2ca6c0c8e9c1c7630d308f9e7c348fb7fffe56e09b3b95348a",
-          "sha256": "b9eaf2326b39ec061fc4cf6c4b2fcca9614e2736bf99e8d96086e1422643763c",
-          "sha1": "453d09646b9fa7f1cdfbd2f74463e629169ee742",
-          "md5": "31176a8ee7e22644336c8e45a9a69e5a"
+          "size": 89125,
+          "sha512": "8439af10309daaafc4618e095627f5cf0c72430a27479bd3e637328197e510212aef3fd899247f28ff92b267622aaca99317071d9f09885dc5ffa9e4fa75fa71",
+          "sha256": "34d14945c11c6712e2e408ca8c1dd60a26a37ef7a9d514a4e68076da395e1128",
+          "sha1": "6cbe13348a5ea70eac4bfddfef3d3ecfe94bdbb6",
+          "md5": "21f009e82353940eba86c559057eb079"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "ota-1.0-20230417.aar",
           "url": "ota-1.0-20230417.aar",
-          "size": 88627,
-          "sha512": "eb636d7686158e4ec971887d01c9cebc81f21a97ca8000f5269783971b3d31d4721423487c3d9b2ca6c0c8e9c1c7630d308f9e7c348fb7fffe56e09b3b95348a",
-          "sha256": "b9eaf2326b39ec061fc4cf6c4b2fcca9614e2736bf99e8d96086e1422643763c",
-          "sha1": "453d09646b9fa7f1cdfbd2f74463e629169ee742",
-          "md5": "31176a8ee7e22644336c8e45a9a69e5a"
+          "size": 89125,
+          "sha512": "8439af10309daaafc4618e095627f5cf0c72430a27479bd3e637328197e510212aef3fd899247f28ff92b267622aaca99317071d9f09885dc5ffa9e4fa75fa71",
+          "sha256": "34d14945c11c6712e2e408ca8c1dd60a26a37ef7a9d514a4e68076da395e1128",
+          "sha1": "6cbe13348a5ea70eac4bfddfef3d3ecfe94bdbb6",
+          "md5": "21f009e82353940eba86c559057eb079"
         }
       ]
     }
