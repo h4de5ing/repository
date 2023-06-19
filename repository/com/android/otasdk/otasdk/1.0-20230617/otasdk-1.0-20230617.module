@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.otasdk",
+    "module": "otasdk",
+    "version": "1.0-20230617",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "otasdk-1.0-20230617.aar",
+          "url": "otasdk-1.0-20230617.aar",
+          "size": 20446,
+          "sha512": "dc17742fec778d040ec46ad8788fff466ff4ab146247f612767c34c8712320a95a2262b146d2e6b229015555134a604ff744f9e64957687a4e06df41ece7e5b0",
+          "sha256": "42654eec5158228ccc48f1488e1c138895ec1ceb2bf98b2c947b7f4ec54b82ac",
+          "sha1": "5597a77f8675060ff599eb1d17e9871f58b938f3",
+          "md5": "feee6d60172afe1ad45b95b7d277298f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "otasdk-1.0-20230617.aar",
+          "url": "otasdk-1.0-20230617.aar",
+          "size": 20446,
+          "sha512": "dc17742fec778d040ec46ad8788fff466ff4ab146247f612767c34c8712320a95a2262b146d2e6b229015555134a604ff744f9e64957687a4e06df41ece7e5b0",
+          "sha256": "42654eec5158228ccc48f1488e1c138895ec1ceb2bf98b2c947b7f4ec54b82ac",
+          "sha1": "5597a77f8675060ff599eb1d17e9871f58b938f3",
+          "md5": "feee6d60172afe1ad45b95b7d277298f"
+        }
+      ]
+    }
+  ]
+}
