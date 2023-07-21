@@ -3,14 +3,15 @@
   <groupId>com.giftedcat.serialportlibrary</groupId>
   <artifactId>serialportlib</artifactId>
   <versioning>
-    <latest>1.0-20230614</latest>
-    <release>1.0-20230614</release>
+    <latest>1.0-20230721</latest>
+    <release>1.0-20230721</release>
     <versions>
       <version>1.0-20221230</version>
       <version>1.0-20230207</version>
       <version>1.0-20230322</version>
       <version>1.0-20230614</version>
+      <version>1.0-20230721</version>
     </versions>
-    <lastUpdated>20230614104603</lastUpdated>
+    <lastUpdated>20230721101218</lastUpdated>
   </versioning>
 </metadata>

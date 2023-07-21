@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.giftedcat.serialportlibrary",
+    "module": "serialportlib",
+    "version": "1.0-20230721",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialportlib-1.0-20230721.aar",
+          "url": "serialportlib-1.0-20230721.aar",
+          "size": 27411,
+          "sha512": "b7ce2d65989ec35e9a85d25abc7cc0fabd4e4ef9cfdeb70667f29dd7bc220e4c44950c51eae06b855fc40702ec653b9add44063f9bac9d7f537edd5d33e64a52",
+          "sha256": "213af9393a9e710e5a2b331bce8a7b9a06df621c220a03d46050cf2d52f64569",
+          "sha1": "f0e47bf4f1b76668588e053bc12ac42e77c9cc1b",
+          "md5": "92d1a16b3fb68d0771f43ad857e6e662"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialportlib-1.0-20230721.aar",
+          "url": "serialportlib-1.0-20230721.aar",
+          "size": 27411,
+          "sha512": "b7ce2d65989ec35e9a85d25abc7cc0fabd4e4ef9cfdeb70667f29dd7bc220e4c44950c51eae06b855fc40702ec653b9add44063f9bac9d7f537edd5d33e64a52",
+          "sha256": "213af9393a9e710e5a2b331bce8a7b9a06df621c220a03d46050cf2d52f64569",
+          "sha1": "f0e47bf4f1b76668588e053bc12ac42e77c9cc1b",
+          "md5": "92d1a16b3fb68d0771f43ad857e6e662"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "serialportlib-1.0-20230721-sources.jar",
+          "url": "serialportlib-1.0-20230721-sources.jar",
+          "size": 18159,
+          "sha512": "1389466d022c8d59cdc6f92c9e05915f81db61e56b788b88e851a445f36bf9ba8da5419cf181a3b578f2d0160ad85d023af7426f8f06bd715be36c51ca1af67e",
+          "sha256": "046f8d8ba99dc3dd01db1739eb3110684b979b69164e03eb7b9b633b7324832a",
+          "sha1": "4465b06a6e8a88f41c2d0aa8d2a222312b81efa9",
+          "md5": "1e6dd4ae657045fa4760d55d4c261e56"
+        }
+      ]
+    }
+  ]
+}
