@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.filemanager",
+    "module": "filemanager",
+    "version": "1.0-20230725",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filemanager-1.0-20230725.aar",
+          "url": "filemanager-1.0-20230725.aar",
+          "size": 90820,
+          "sha512": "a9e87efd036e7a6ad3495c4dd7ac48cdaba88d2738f344f48df86d6c507d8904855047472cf67d5446d7da1831e27bbf972d76f474a207f1d1345ac48f1d4e61",
+          "sha256": "c8b607ba41ec6510abc8f2a2f7c9e5e8a3678cda06a8859a5c6724360c01714e",
+          "sha1": "8a09807bea1fa2690ac4df7716ae0a82d89cbcf4",
+          "md5": "3abe3af2af1c5b03f12cbea65cb71b40"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "filemanager-1.0-20230725.aar",
+          "url": "filemanager-1.0-20230725.aar",
+          "size": 90820,
+          "sha512": "a9e87efd036e7a6ad3495c4dd7ac48cdaba88d2738f344f48df86d6c507d8904855047472cf67d5446d7da1831e27bbf972d76f474a207f1d1345ac48f1d4e61",
+          "sha256": "c8b607ba41ec6510abc8f2a2f7c9e5e8a3678cda06a8859a5c6724360c01714e",
+          "sha1": "8a09807bea1fa2690ac4df7716ae0a82d89cbcf4",
+          "md5": "3abe3af2af1c5b03f12cbea65cb71b40"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "filemanager-1.0-20230725-sources.jar",
+          "url": "filemanager-1.0-20230725-sources.jar",
+          "size": 14057,
+          "sha512": "1c0d4530232885add8c7f941b0b7f4a679b603f2a9abfd9ed86da8ee3a3995b81f0e9e36a0ab1a1e9f5b9c12851199558e0873e2dda6431a89d689b2ecb616ab",
+          "sha256": "988c6e35a419b87690bd26258cff41b22754fb8d15e76348aa97ee4d1b0f405b",
+          "sha1": "d6fa7f90b662b709279e32b2b5c0511251b35124",
+          "md5": "fd68cdad3ac0e47be4f1982992949b62"
+        }
+      ]
+    }
+  ]
+}
