@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.baseui",
+    "module": "baseui",
+    "version": "1.0-20230807",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "baseui-1.0-20230807.aar",
+          "url": "baseui-1.0-20230807.aar",
+          "size": 99524,
+          "sha512": "68d7dc770d2934e8cfb38726413b9514bba9c9361b896491676b26e45fc7a63338b716ecbb95ff1021224f738b038dd7256920062f1e57eecc8b015a30f84bb8",
+          "sha256": "6b51fbf85ad7042e3ec2d0c58a70b4e43576f7fc2511acd388e05bfd42f496de",
+          "sha1": "8516828c3c08f16c5f18de989b961146bb1bc211",
+          "md5": "6148aa7e9331aa24ecf7667cc9ccceb6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "baseui-1.0-20230807.aar",
+          "url": "baseui-1.0-20230807.aar",
+          "size": 99524,
+          "sha512": "68d7dc770d2934e8cfb38726413b9514bba9c9361b896491676b26e45fc7a63338b716ecbb95ff1021224f738b038dd7256920062f1e57eecc8b015a30f84bb8",
+          "sha256": "6b51fbf85ad7042e3ec2d0c58a70b4e43576f7fc2511acd388e05bfd42f496de",
+          "sha1": "8516828c3c08f16c5f18de989b961146bb1bc211",
+          "md5": "6148aa7e9331aa24ecf7667cc9ccceb6"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "baseui-1.0-20230807-sources.jar",
+          "url": "baseui-1.0-20230807-sources.jar",
+          "size": 57293,
+          "sha512": "b32c8959e85e17dc9e9244f611976f6343ccbd1d942aa0a114381679a01adbc1b3e03b6fe6ddec61c99f7a7c0d20ac3b7f291356f0798eda7ee56afe48764171",
+          "sha256": "d87c8b879e678c876a97e041ed01c5b659dbe33d7d5770ca4e74a86345d4ec1c",
+          "sha1": "83ddffbe2079bf05c708339ddde17418ae9fd405",
+          "md5": "d7b87bb353b99f24e71378a191837887"
+        }
+      ]
+    }
+  ]
+}
