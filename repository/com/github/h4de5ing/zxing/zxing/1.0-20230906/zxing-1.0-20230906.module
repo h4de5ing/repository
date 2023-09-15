@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.zxing",
+    "module": "zxing",
+    "version": "1.0-20230906",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zxing-1.0-20230906.aar",
+          "url": "zxing-1.0-20230906.aar",
+          "size": 61046,
+          "sha512": "51373ece67a50cbd73dc2d80f3d6079a6087368c49998182e0547328bc551802a3a588bb260498ba4dc620b841cdb781bd30544e131846de7873435a2b89210c",
+          "sha256": "ef685d1cc10d2aeac4799ec5a57b8e8a0bf5a085ca955948fbb99f88c03cf686",
+          "sha1": "b4135de7a73f2b7d3a491fcf269cd5544bcfc58d",
+          "md5": "39bdd0ce82b878df772814c252ae3154"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "zxing-1.0-20230906.aar",
+          "url": "zxing-1.0-20230906.aar",
+          "size": 61046,
+          "sha512": "51373ece67a50cbd73dc2d80f3d6079a6087368c49998182e0547328bc551802a3a588bb260498ba4dc620b841cdb781bd30544e131846de7873435a2b89210c",
+          "sha256": "ef685d1cc10d2aeac4799ec5a57b8e8a0bf5a085ca955948fbb99f88c03cf686",
+          "sha1": "b4135de7a73f2b7d3a491fcf269cd5544bcfc58d",
+          "md5": "39bdd0ce82b878df772814c252ae3154"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "zxing-1.0-20230906-sources.jar",
+          "url": "zxing-1.0-20230906-sources.jar",
+          "size": 58161,
+          "sha512": "3a50ce1d125dd50c6e0ce1a37d39c669c0ffdcec40fa700820e403919c203c36e18abe129e3ecd906140715cad53106c586e2d481901eb547eba23fc438fcbee",
+          "sha256": "457cbf6b6a9063dceb18614d326de677e67064769b62ad70b13ef2f8fa7b4beb",
+          "sha1": "f58933bef789136b0564c56b6af5c447cd7a22e8",
+          "md5": "ac49cc5a05cfdcb0d035dc8ce2fd5046"
+        }
+      ]
+    }
+  ]
+}
