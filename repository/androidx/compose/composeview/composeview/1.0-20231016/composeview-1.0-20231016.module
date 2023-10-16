@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.compose.composeview",
+    "module": "composeview",
+    "version": "1.0-20231016",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composeview-1.0-20231016.aar",
+          "url": "composeview-1.0-20231016.aar",
+          "size": 26858,
+          "sha512": "af7f5e19f54b4126c5d268f03ea47deeb260a85cdb60eb1da483d59ae4059111489538425a024fd1ea7bbf12714ae22243202ac9eb59584c4e0127787e00c870",
+          "sha256": "906ab1ab133cd0806844ffd7593491c4cfeb58e6e5fb28ef1b953124c5e57935",
+          "sha1": "c16ba8ded4199ac3d30d408b5e4330b85e3edc0d",
+          "md5": "ca2a789216e9e8a05c40fbe301555e3c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.3"
+          }
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "composeview-1.0-20231016.aar",
+          "url": "composeview-1.0-20231016.aar",
+          "size": 26858,
+          "sha512": "af7f5e19f54b4126c5d268f03ea47deeb260a85cdb60eb1da483d59ae4059111489538425a024fd1ea7bbf12714ae22243202ac9eb59584c4e0127787e00c870",
+          "sha256": "906ab1ab133cd0806844ffd7593491c4cfeb58e6e5fb28ef1b953124c5e57935",
+          "sha1": "c16ba8ded4199ac3d30d408b5e4330b85e3edc0d",
+          "md5": "ca2a789216e9e8a05c40fbe301555e3c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "composeview-1.0-20231016-sources.jar",
+          "url": "composeview-1.0-20231016-sources.jar",
+          "size": 3737,
+          "sha512": "ff801eebb0befd4b843052a7ce28bd896c64698ae253c431f3f2a300fefac68ec75dbcfd8f74a6e130768ec0e90642f61deff4fd233408344d1fc41d9985fc23",
+          "sha256": "4f0867830648aeb52df371f127ac900897e02b728beafd466ccf0472cfc57020",
+          "sha1": "1793a694414a38a6c892dd1de61646ccd8ad3dbb",
+          "md5": "b16d66f5f69c22904856096496e2c139"
+        }
+      ]
+    }
+  ]
+}
