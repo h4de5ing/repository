@@ -3,13 +3,14 @@
   <groupId>com.github.mik3y</groupId>
   <artifactId>usb-serial-for-android</artifactId>
   <versioning>
-    <latest>4.0-20240124</latest>
-    <release>4.0-20240124</release>
+    <latest>4.0-20240125</latest>
+    <release>4.0-20240125</release>
     <versions>
       <version>1.0-20231205</version>
       <version>4.0-20231206</version>
       <version>4.0-20240124</version>
+      <version>4.0-20240125</version>
     </versions>
-    <lastUpdated>20240124065209</lastUpdated>
+    <lastUpdated>20240125075927</lastUpdated>
   </versioning>
 </metadata>
