@@ -34,11 +34,11 @@
         {
           "name": "ota-1.0-20240513.aar",
           "url": "ota-1.0-20240513.aar",
-          "size": 95577,
-          "sha512": "ec7524cfdd2876a746eb8d9b065226a69f180dc81f97f21b10bff6d179a01ae3c03aeb6e75a03989abf2c337b2da8a14cdfa0d7cf55ed64d30dda2a9ba81bd96",
-          "sha256": "85ca14d76b2ed852d44a5c93fbc884c47646690389f967a40e72868f642f0df2",
-          "sha1": "790b545416caebea081191345bc7f51e826ceab7",
-          "md5": "fa5b63ea1cb0c7d9ab2ff4e669d218b7"
+          "size": 99611,
+          "sha512": "2954ced2f1dc336a0fa801f9e2119f335bb7e3dc00e641448c9b20b5d937317df72672daf060759800feb3ea674e40099fc8b99cb0bcdaff27cf367116ab62eb",
+          "sha256": "0e7b8221816291c9486f7f3decf84f904f27af658cc94ca22386871979b4f3c7",
+          "sha1": "99104db6548353e5f49be2b04f33c67ccce5a131",
+          "md5": "79bf9362276439b81a72cc2d58928020"
         }
       ]
     },
@@ -68,7 +68,7 @@
           "group": "com.github.h4de5ing.netlib",
           "module": "netlib",
           "version": {
-            "requires": "2.0-20230322"
+            "requires": "2.0-20240513"
           }
         },
         {
@@ -90,11 +90,11 @@
         {
           "name": "ota-1.0-20240513.aar",
           "url": "ota-1.0-20240513.aar",
-          "size": 95577,
-          "sha512": "ec7524cfdd2876a746eb8d9b065226a69f180dc81f97f21b10bff6d179a01ae3c03aeb6e75a03989abf2c337b2da8a14cdfa0d7cf55ed64d30dda2a9ba81bd96",
-          "sha256": "85ca14d76b2ed852d44a5c93fbc884c47646690389f967a40e72868f642f0df2",
-          "sha1": "790b545416caebea081191345bc7f51e826ceab7",
-          "md5": "fa5b63ea1cb0c7d9ab2ff4e669d218b7"
+          "size": 99611,
+          "sha512": "2954ced2f1dc336a0fa801f9e2119f335bb7e3dc00e641448c9b20b5d937317df72672daf060759800feb3ea674e40099fc8b99cb0bcdaff27cf367116ab62eb",
+          "sha256": "0e7b8221816291c9486f7f3decf84f904f27af658cc94ca22386871979b4f3c7",
+          "sha1": "99104db6548353e5f49be2b04f33c67ccce5a131",
+          "md5": "79bf9362276439b81a72cc2d58928020"
         }
       ]
     },
@@ -112,11 +112,11 @@
         {
           "name": "ota-1.0-20240513-sources.jar",
           "url": "ota-1.0-20240513-sources.jar",
-          "size": 26041,
-          "sha512": "fbb6976d2e1db25ee6ca1943307b7f68705aab8a43da6f69833ed9b25cd0736d5ef5523b51eda0344f67db93a6fe4436248cdfb37d770c0c6ccf0f4ac80f0fb3",
-          "sha256": "371372d5269ea7b794e2c5c81caa700a7dbd34f191e78d47b32ac3f508f6ed86",
-          "sha1": "3992953fbce70415df9948a416ce4eef256a640d",
-          "md5": "36797bde5c9e6bf141c16ac3d6dddd0c"
+          "size": 25803,
+          "sha512": "a36aecb33ea9bad0a8bada8f23804c7a9afbaca71c66ccd20a30d7d2d25e53b4c7e81acecf82accea514046f138dc903b1adb1e322f4f18202c95118365288bf",
+          "sha256": "2ea6dbfe75537cfe1983bb3bcc410853436eb53c3c49ec5c8e45d68248c38923",
+          "sha1": "4fc2da97983fc22ab0be800757ab3a0a5f8e8c0a",
+          "md5": "e6aefa3e6fbe8ab7b6b8a6b1a292552a"
         }
       ]
     }
