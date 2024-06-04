@@ -5,5 +5,5 @@
   <groupId>com.github.h4de5ing.document</groupId>
   <artifactId>document</artifactId>
   <version>1.0-20240604</version>
-  <packaging>pom</packaging>
+  <packaging>aar</packaging>
 </project>
