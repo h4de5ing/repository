@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.netlib",
+    "module": "netlib",
+    "version": "2.0-20240814",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20240814.aar",
+          "url": "netlib-2.0-20240814.aar",
+          "size": 43998,
+          "sha512": "3dcb52487ab44068e78ae006d80e32f39bdfb986b39d243ca76792f68a8f05b4e51461cd3ff6b7410966bfd3faba16e895104e207e727c172716a1b296abee10",
+          "sha256": "d50b9bf20844f230cac7dd2449c68b5df05489674cc6803c5adc4a2fa378c9e0",
+          "sha1": "dad77e634a25f28449a0a1023297ba686b17687a",
+          "md5": "dcab92a73b02fee68854dd20073c991e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20240814.aar",
+          "url": "netlib-2.0-20240814.aar",
+          "size": 43998,
+          "sha512": "3dcb52487ab44068e78ae006d80e32f39bdfb986b39d243ca76792f68a8f05b4e51461cd3ff6b7410966bfd3faba16e895104e207e727c172716a1b296abee10",
+          "sha256": "d50b9bf20844f230cac7dd2449c68b5df05489674cc6803c5adc4a2fa378c9e0",
+          "sha1": "dad77e634a25f28449a0a1023297ba686b17687a",
+          "md5": "dcab92a73b02fee68854dd20073c991e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "netlib-2.0-20240814-sources.jar",
+          "url": "netlib-2.0-20240814-sources.jar",
+          "size": 24337,
+          "sha512": "5158529bb6393c057c946450233c128361e822830be91d6cc5688ac4f2ecf8cb4007b0f039f5eb6a71a1276d097527fada69646bc04280b8e734f1093adecc07",
+          "sha256": "367b131f9d6fbac8ee5aa7547380d21320762f861ec7c08cf122fa1f7bd74f05",
+          "sha1": "cbf4f206a6dad77df3597ec359bbcf6613c13e2d",
+          "md5": "bb561fa81ecd87f6fce9ffc7b54d66fa"
+        }
+      ]
+    }
+  ]
+}
