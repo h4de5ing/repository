@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.vanserialport",
+    "module": "vanserialport",
+    "version": "1.0-20250701",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vanserialport-1.0-20250701.aar",
+          "url": "vanserialport-1.0-20250701.aar",
+          "size": 105119,
+          "sha512": "fdec5638a3bbee1a99ebc8ea0957748513f6654944d8973a993193afc0546ba15a304b8a7d1adebf95d9439916501d4a29e5a293228ac6e911394ee52bba3fac",
+          "sha256": "0cb461827e33331571fecd459529816dfc8080bd6614027af46d0f88a7f2b5a3",
+          "sha1": "649dae9a965ae09d026302d7f009d1edc57393ea",
+          "md5": "c916d13c0246290c02e28da3e00a2240"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vanserialport-1.0-20250701.aar",
+          "url": "vanserialport-1.0-20250701.aar",
+          "size": 105119,
+          "sha512": "fdec5638a3bbee1a99ebc8ea0957748513f6654944d8973a993193afc0546ba15a304b8a7d1adebf95d9439916501d4a29e5a293228ac6e911394ee52bba3fac",
+          "sha256": "0cb461827e33331571fecd459529816dfc8080bd6614027af46d0f88a7f2b5a3",
+          "sha1": "649dae9a965ae09d026302d7f009d1edc57393ea",
+          "md5": "c916d13c0246290c02e28da3e00a2240"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "vanserialport-1.0-20250701-sources.jar",
+          "url": "vanserialport-1.0-20250701-sources.jar",
+          "size": 5123,
+          "sha512": "171f0858d9cd7cde4526ab001a57fd60df3eacd03c4d377a9009f81f75e415c52beb2028d5533ffbf964329b2e6eca2b45cbb3a2e51a1fac0bbb425f53a1d51e",
+          "sha256": "f113a2b753db42bb3d5ae210bd864fff1306e7fa4dd4a2fc8f68b9622d383713",
+          "sha1": "0600519f98aa8689ef9ba103ca4f385b3ceb8c78",
+          "md5": "1d2e8316cf0d3523617f2099c6d08add"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.mik3y",
+    "module": "usb-serial-for-android",
+    "version": "4.0-20250701",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "usb-serial-for-android-4.0-20250701.aar",
+          "url": "usb-serial-for-android-4.0-20250701.aar",
+          "size": 58502,
+          "sha512": "2182f304b0301a5f2cc84e4bb0f8092191b0813d435714a9f13bf819699ec6e2a2f6179603ee0c9661c587acf98e0975edbe861bde20a46f0661ab9590682f20",
+          "sha256": "5e4f960bb700dc675b797f5b9e2a837969ccf76dfec01dd7885e2997fbb5d13b",
+          "sha1": "f38a4d0abc1733e8bda4aee371fa038efb688e9b",
+          "md5": "4ffc3d96d587b67a74cdfa2fb9ec2408"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usb-serial-for-android-4.0-20250701.aar",
+          "url": "usb-serial-for-android-4.0-20250701.aar",
+          "size": 58502,
+          "sha512": "2182f304b0301a5f2cc84e4bb0f8092191b0813d435714a9f13bf819699ec6e2a2f6179603ee0c9661c587acf98e0975edbe861bde20a46f0661ab9590682f20",
+          "sha256": "5e4f960bb700dc675b797f5b9e2a837969ccf76dfec01dd7885e2997fbb5d13b",
+          "sha1": "f38a4d0abc1733e8bda4aee371fa038efb688e9b",
+          "md5": "4ffc3d96d587b67a74cdfa2fb9ec2408"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "usb-serial-for-android-4.0-20250701-sources.jar",
+          "url": "usb-serial-for-android-4.0-20250701-sources.jar",
+          "size": 37625,
+          "sha512": "1582ab201e6032d6dc29dbc117d2c54c2057b5c7001fa5c0caadb480011e0b81dadb7e62bba2815beb46bd344221f69c0a51a65f5f8ef26983c1fda802ba9dfc",
+          "sha256": "bbd99e425ef353ffea9e96186d23b038579d3ee20185ecc59ed4baf03776e20e",
+          "sha1": "66c426934b404cc63251dec9561d6e98c3dd0e45",
+          "md5": "1c07812d2897a01b435a1c607dedf8af"
+        }
+      ]
+    }
+  ]
+}
