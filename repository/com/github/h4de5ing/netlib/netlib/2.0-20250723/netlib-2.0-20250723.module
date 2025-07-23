@@ -35,11 +35,11 @@
         {
           "name": "netlib-2.0-20250723.aar",
           "url": "netlib-2.0-20250723.aar",
-          "size": 40267,
-          "sha512": "22f1ee4495de39edfed75e343bc539d283182dbed1869b225b32c8b56bf8bcc35961a453d8b3e92dfec08197be69bfa85dc366e8fde9e033d2e8ec0af08e44f6",
-          "sha256": "370df834cf4d71d88458615ea0da59f7fe99af33afa9a3c16bdc97aa1377edd8",
-          "sha1": "cba6dad5db0941e990b079c7b69487b08a3614a9",
-          "md5": "31a73a110ae630a734a63c2f88329562"
+          "size": 40747,
+          "sha512": "78dfd40709627bbd134f2716ad8b251bf9c8a6d755f9888cd88f3c7224fd59911f9110fbf8ce2585f327937fdf2b8fb748855d7e1419942fe80584ddde11d829",
+          "sha256": "310c5f6fd658fe458d963e3eb86aa2c91c41b28f2d13fc5c901a9b95fbf7c592",
+          "sha1": "43f667b8622c7c99d17d854d90f35d0339d0f400",
+          "md5": "72bdcbd957428b2438c87cdf6af63778"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "netlib-2.0-20250723.aar",
           "url": "netlib-2.0-20250723.aar",
-          "size": 40267,
-          "sha512": "22f1ee4495de39edfed75e343bc539d283182dbed1869b225b32c8b56bf8bcc35961a453d8b3e92dfec08197be69bfa85dc366e8fde9e033d2e8ec0af08e44f6",
-          "sha256": "370df834cf4d71d88458615ea0da59f7fe99af33afa9a3c16bdc97aa1377edd8",
-          "sha1": "cba6dad5db0941e990b079c7b69487b08a3614a9",
-          "md5": "31a73a110ae630a734a63c2f88329562"
+          "size": 40747,
+          "sha512": "78dfd40709627bbd134f2716ad8b251bf9c8a6d755f9888cd88f3c7224fd59911f9110fbf8ce2585f327937fdf2b8fb748855d7e1419942fe80584ddde11d829",
+          "sha256": "310c5f6fd658fe458d963e3eb86aa2c91c41b28f2d13fc5c901a9b95fbf7c592",
+          "sha1": "43f667b8622c7c99d17d854d90f35d0339d0f400",
+          "md5": "72bdcbd957428b2438c87cdf6af63778"
         }
       ]
     }
