@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.netlib",
+    "module": "netlib",
+    "version": "2.0-20250811",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20250811.aar",
+          "url": "netlib-2.0-20250811.aar",
+          "size": 36289,
+          "sha512": "26076e7c610753a7d94780913ef298649bc5ceabbe0fd7e323f29073644632d0f8ee48d192b3fb4cf399b6c1634ab195afc080b15ba198e53f25eed09452830f",
+          "sha256": "71593458ea6f5203e2abbc3dae8537defe9f39f6f615e420e5a1a7f6e7e243a8",
+          "sha1": "82de4eb206538783569e3d096332cd42b28cb426",
+          "md5": "b8c67d737d56014f1e3b8d612ff5f01e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-dnsoverhttps",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "netlib-2.0-20250811.aar",
+          "url": "netlib-2.0-20250811.aar",
+          "size": 36289,
+          "sha512": "26076e7c610753a7d94780913ef298649bc5ceabbe0fd7e323f29073644632d0f8ee48d192b3fb4cf399b6c1634ab195afc080b15ba198e53f25eed09452830f",
+          "sha256": "71593458ea6f5203e2abbc3dae8537defe9f39f6f615e420e5a1a7f6e7e243a8",
+          "sha1": "82de4eb206538783569e3d096332cd42b28cb426",
+          "md5": "b8c67d737d56014f1e3b8d612ff5f01e"
+        }
+      ]
+    }
+  ]
+}
