@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.koogsystem",
+    "module": "koog-core-lib",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.koogsystem",
+          "module": "device-android-control",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-core-lib-0.1.0-SNAPSHOT.aar",
+          "url": "koog-core-lib-0.1.0-SNAPSHOT.aar",
+          "size": 11592,
+          "sha512": "afb5d0b49bb37251676c54e0f1ffdf7d9a92a5b4288e50e3b8c967ed2f17afacb2eb65011d4888c02fe68dffab4dff0ec256cf97f6e408c891910b665b88a229",
+          "sha256": "54a6f61f4e10d7fd2074b04361207e633fda5a3608caca30748a67917545bf60",
+          "sha1": "65b80de1ca7f0abaac032bc5086a669252c06d71",
+          "md5": "fc3bb29a0247c634ed880dadca8f1596"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "com.android.koogsystem",
+          "module": "device-android-control",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koog-core-lib-0.1.0-SNAPSHOT.aar",
+          "url": "koog-core-lib-0.1.0-SNAPSHOT.aar",
+          "size": 11592,
+          "sha512": "afb5d0b49bb37251676c54e0f1ffdf7d9a92a5b4288e50e3b8c967ed2f17afacb2eb65011d4888c02fe68dffab4dff0ec256cf97f6e408c891910b665b88a229",
+          "sha256": "54a6f61f4e10d7fd2074b04361207e633fda5a3608caca30748a67917545bf60",
+          "sha1": "65b80de1ca7f0abaac032bc5086a669252c06d71",
+          "md5": "fc3bb29a0247c634ed880dadca8f1596"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "koog-core-lib-0.1.0-SNAPSHOT-sources.jar",
+          "url": "koog-core-lib-0.1.0-SNAPSHOT-sources.jar",
+          "size": 3853,
+          "sha512": "4472cdde211533a609ba236ab037bc84c3f107450aeb47bbcfdfb57028982cf256009082561c0b6d1068842128c6ff8c3d65a42a8bbf32fe292374f93a08f294",
+          "sha256": "2d827e1d741563b6ec11aec94862c249326b9656d89218ad841046eaedf77cf9",
+          "sha1": "a0570d8fb275681dd1b0e06e62c428b53ea23628",
+          "md5": "c7e71a1dcd9f19a09aaf04e1d2fd99d9"
+        }
+      ]
+    }
+  ]
+}

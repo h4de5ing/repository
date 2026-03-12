@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.koogsystem",
+    "module": "device-aiglasses",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.koogsystem",
+          "module": "koog-core-lib",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device-aiglasses-0.1.0-SNAPSHOT.aar",
+          "url": "device-aiglasses-0.1.0-SNAPSHOT.aar",
+          "size": 54025,
+          "sha512": "da9ad900aca2d75589e5ce2dee11de54c2a3c25ca8d16dc67cb04baac28667ab7c9cea0623ebe5de2cd04e1dd67f5918473af24adc01f4b0102b19f02866bd21",
+          "sha256": "ddbddbe50e50cdbc902ca9a493cad8490062eaa433c1f66aafcddbd026df4e1f",
+          "sha1": "6e9dc075a202a542427f93d59bdce639571f3ab7",
+          "md5": "719a6df3fb785f7907b8a11fd83afa7a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.koogsystem",
+          "module": "device-android-control",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.emdoor.yzsoft.lib",
+          "module": "common_lib",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.emdoor.yzsoft.lib",
+          "module": "android_lib",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.emdoor.yzsoft.lib",
+          "module": "channel_lib",
+          "version": {
+            "requires": "1.0.12"
+          }
+        },
+        {
+          "group": "com.emdoor.yzsoft.lib",
+          "module": "aiglasses_sdk_lib",
+          "version": {
+            "requires": "1.0.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "com.android.koogsystem",
+          "module": "koog-core-lib",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device-aiglasses-0.1.0-SNAPSHOT.aar",
+          "url": "device-aiglasses-0.1.0-SNAPSHOT.aar",
+          "size": 54025,
+          "sha512": "da9ad900aca2d75589e5ce2dee11de54c2a3c25ca8d16dc67cb04baac28667ab7c9cea0623ebe5de2cd04e1dd67f5918473af24adc01f4b0102b19f02866bd21",
+          "sha256": "ddbddbe50e50cdbc902ca9a493cad8490062eaa433c1f66aafcddbd026df4e1f",
+          "sha1": "6e9dc075a202a542427f93d59bdce639571f3ab7",
+          "md5": "719a6df3fb785f7907b8a11fd83afa7a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device-aiglasses-0.1.0-SNAPSHOT-sources.jar",
+          "url": "device-aiglasses-0.1.0-SNAPSHOT-sources.jar",
+          "size": 10784,
+          "sha512": "4c33d58be42306e9d7ec8bfa4d3d1d875a124feea5a8405684b6efad9a7e2502e8fdbfc8aa807140097abaf17bc55dc1531175fa0b7c23ef560fcecb378f1233",
+          "sha256": "281fdda559ec9eae41a91d7642cd7e03b6fd0cbbc16c1ec467bb06be1e398282",
+          "sha1": "af07ec94ba1c565996dfe4f9e4f0b7a8c19a9121",
+          "md5": "ebcf320404d75b53abd02d3f44f1ce95"
+        }
+      ]
+    }
+  ]
+}

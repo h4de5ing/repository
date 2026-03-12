@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.android.koogsystem</groupId>
+  <artifactId>device-android-control</artifactId>
+  <versioning>
+    <lastUpdated>20260312091838</lastUpdated>
+    <snapshot>
+      <timestamp>20260312.091838</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20260312.091838-2</value>
+        <updated>20260312091838</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20260312.091838-2</value>
+        <updated>20260312091838</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.1.0-20260312.091838-2</value>
+        <updated>20260312091838</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-20260312.091838-2</value>
+        <updated>20260312091838</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.1.0-SNAPSHOT</version>
+</metadata>

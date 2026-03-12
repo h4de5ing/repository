@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.koogsystem",
+    "module": "core-asr",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-asr-0.1.0-SNAPSHOT.aar",
+          "url": "core-asr-0.1.0-SNAPSHOT.aar",
+          "size": 7278468,
+          "sha512": "ea6bf38f01882c1a5c0c7bfa316b6c830ca6a7a7bafbf21f52e495da01390e39022afdd1be71be0a984a79d6b2b1e8e4e3fe9fcd5aa62f3bc8b243a7e9ce5049",
+          "sha256": "119220fa538084ea0fa9397697abdab9280c131ff64c6dbbad1c078f83ac7514",
+          "sha1": "d90c47ea0c78e15e8fe4368de89c05b83a807749",
+          "md5": "1b4a40fdb94815eeb42134e0fec71f0d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-asr-0.1.0-SNAPSHOT.aar",
+          "url": "core-asr-0.1.0-SNAPSHOT.aar",
+          "size": 7278468,
+          "sha512": "ea6bf38f01882c1a5c0c7bfa316b6c830ca6a7a7bafbf21f52e495da01390e39022afdd1be71be0a984a79d6b2b1e8e4e3fe9fcd5aa62f3bc8b243a7e9ce5049",
+          "sha256": "119220fa538084ea0fa9397697abdab9280c131ff64c6dbbad1c078f83ac7514",
+          "sha1": "d90c47ea0c78e15e8fe4368de89c05b83a807749",
+          "md5": "1b4a40fdb94815eeb42134e0fec71f0d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-asr-0.1.0-SNAPSHOT-sources.jar",
+          "url": "core-asr-0.1.0-SNAPSHOT-sources.jar",
+          "size": 23151,
+          "sha512": "a45a26511abf1e2d6053b50fcd3f226566ec93488eb563dfb558a46d8921daf31c6d69f4ab305f621f60f0e1aa3d76a7da62e7b07ba777d0af2a13bd927e964b",
+          "sha256": "f32b740df7e1f2be723f07599926790181a9da137f1f3b9993d3b5db45c1bc70",
+          "sha1": "642235419a6e0744c6654c425be0fc0dfbbef831",
+          "md5": "ac250e3e401c8b3c7375e912dd13b222"
+        }
+      ]
+    }
+  ]
+}

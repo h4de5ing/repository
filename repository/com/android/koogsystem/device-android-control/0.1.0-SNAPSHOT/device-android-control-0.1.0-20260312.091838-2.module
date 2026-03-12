@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.koogsystem",
+    "module": "device-android-control",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.3.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device-android-control-0.1.0-SNAPSHOT.aar",
+          "url": "device-android-control-0.1.0-SNAPSHOT.aar",
+          "size": 29568,
+          "sha512": "a5024e6d5031211233a755f426dc39047d6b9b16c7186a60c7d472b46657914566d1e62b5cc5b19cb83f13acce6a6c0f858e0b0511a0ce7a92851e3f1aeae684",
+          "sha256": "d1519c6d4a280e7daee2d6e7e534def7f0b7f9a5f86a88a31c6cc2802f1c7cbe",
+          "sha1": "9f8dce4730109e6d468d97a8eb5a3d6414f66caa",
+          "md5": "13bff3fc31c79459a6dc52c8f893fd83"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.18.0"
+          }
+        },
+        {
+          "group": "ai.koog",
+          "module": "koog-agents",
+          "version": {
+            "requires": "0.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "device-android-control-0.1.0-SNAPSHOT.aar",
+          "url": "device-android-control-0.1.0-SNAPSHOT.aar",
+          "size": 29568,
+          "sha512": "a5024e6d5031211233a755f426dc39047d6b9b16c7186a60c7d472b46657914566d1e62b5cc5b19cb83f13acce6a6c0f858e0b0511a0ce7a92851e3f1aeae684",
+          "sha256": "d1519c6d4a280e7daee2d6e7e534def7f0b7f9a5f86a88a31c6cc2802f1c7cbe",
+          "sha1": "9f8dce4730109e6d468d97a8eb5a3d6414f66caa",
+          "md5": "13bff3fc31c79459a6dc52c8f893fd83"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "device-android-control-0.1.0-SNAPSHOT-sources.jar",
+          "url": "device-android-control-0.1.0-SNAPSHOT-sources.jar",
+          "size": 7473,
+          "sha512": "9d529815ad1cdc3c1dce071772945c25c8f07426d3fc18c6374c34e750beeb73abd81b38b87bbb1b95a2fd58c7fd56d0b83b3ac78fd5a4ce6c9ea4994ccd8bf3",
+          "sha256": "1bfe6dad124338c2fc890f493f5e6c2d16e104076c8c1bc6ca00de90d38b7fd1",
+          "sha1": "662267546e70d4203926768b3cbe17fbe30e3451",
+          "md5": "9d69b4e18600702a3ab12a9384150c06"
+        }
+      ]
+    }
+  ]
+}
