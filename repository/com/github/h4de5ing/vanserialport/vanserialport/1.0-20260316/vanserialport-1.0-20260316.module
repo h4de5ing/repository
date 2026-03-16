@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.h4de5ing.vanserialport",
+    "module": "vanserialport",
+    "version": "1.0-20260316",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vanserialport-1.0-20260316.aar",
+          "url": "vanserialport-1.0-20260316.aar",
+          "size": 180057,
+          "sha512": "57385bf412f279f47826b65183336829bca38108a3666d821fc4650129a6c4c3d7daccfc630cd847d90917cd8c062dc886472602817b679dbe80615e634626b1",
+          "sha256": "f4401c2f9312634c89f838d26db4c3d85e610f347539c6f84ad42386da654a73",
+          "sha1": "ce50ec9b6d8c39c6fc5d7476cf8d18c6518e867f",
+          "md5": "ec3e05ecc9cb3b7196338bfd1767d695"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vanserialport-1.0-20260316.aar",
+          "url": "vanserialport-1.0-20260316.aar",
+          "size": 180057,
+          "sha512": "57385bf412f279f47826b65183336829bca38108a3666d821fc4650129a6c4c3d7daccfc630cd847d90917cd8c062dc886472602817b679dbe80615e634626b1",
+          "sha256": "f4401c2f9312634c89f838d26db4c3d85e610f347539c6f84ad42386da654a73",
+          "sha1": "ce50ec9b6d8c39c6fc5d7476cf8d18c6518e867f",
+          "md5": "ec3e05ecc9cb3b7196338bfd1767d695"
+        }
+      ]
+    }
+  ]
+}
