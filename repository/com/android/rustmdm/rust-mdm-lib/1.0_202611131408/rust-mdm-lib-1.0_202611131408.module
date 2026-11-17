@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.rustmdm",
+    "module": "rust-mdm-lib",
+    "version": "1.0_202611131408",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rust-mdm-lib-1.0_202611131408.aar",
+          "url": "rust-mdm-lib-1.0_202611131408.aar",
+          "size": 23366,
+          "sha512": "f0508b082b8619b0bbb232293de9fd7d60e9e61d869afd04c378bce65b4fec2810b632053057aa18ea9169a28e55730930a92f8695580877d6dbe61877d4ee08",
+          "sha256": "760cb4259c8272112e2e439655f81b994534a0db946ba70cba0b0d2598491f08",
+          "sha1": "b8d32c615d5eecb90dcd1bc4ea2568dfa2d5818f",
+          "md5": "39f1f3949a5c45f4c665e2d3dd69b4b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rust-mdm-lib-1.0_202611131408.aar",
+          "url": "rust-mdm-lib-1.0_202611131408.aar",
+          "size": 23366,
+          "sha512": "f0508b082b8619b0bbb232293de9fd7d60e9e61d869afd04c378bce65b4fec2810b632053057aa18ea9169a28e55730930a92f8695580877d6dbe61877d4ee08",
+          "sha256": "760cb4259c8272112e2e439655f81b994534a0db946ba70cba0b0d2598491f08",
+          "sha1": "b8d32c615d5eecb90dcd1bc4ea2568dfa2d5818f",
+          "md5": "39f1f3949a5c45f4c665e2d3dd69b4b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rust-mdm-lib-1.0_202611131408-sources.jar",
+          "url": "rust-mdm-lib-1.0_202611131408-sources.jar",
+          "size": 6907,
+          "sha512": "dfe624600095e8e77f79ce05b61db96ac5242f4c389f029d652edd81f47ca472aa3c8185c256d7a2b271eace52f7a84a970055f5a20096e3de462cef386a1f57",
+          "sha256": "29bb0554ea8abf914c0f7a78a9d297da5bb4342dc5ce661133e8e275a61b5898",
+          "sha1": "bbd22deacfd2f3cc290651c1d3e39bf592373863",
+          "md5": "bbb2913260da82718856f5b69dfb9211"
+        }
+      ]
+    }
+  ]
+}

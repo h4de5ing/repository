@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.rustmdm",
+    "module": "app-lib",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-lib-0.1.0.aar",
+          "url": "app-lib-0.1.0.aar",
+          "size": 21151,
+          "sha512": "061132a772afc3fc0a1ec727f4496847f0d3fff9d9cb1fca6aea40d9fb6469b895b4c2870ff9f1f2327545395666091c382da07e1b175a4eea5b025a8db6f6a1",
+          "sha256": "09f812ca52dbe4310525cdf0d12d8239c91f5aa2335950f77e06435cebfd7e4d",
+          "sha1": "b30e44163b911c9198b4c6abcc6a53f8796bbff9",
+          "md5": "60d1b1b9646253154a51ba626c73b279"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.19.1"
+          }
+        },
+        {
+          "group": "androidx.startup",
+          "module": "startup-runtime",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "app-lib-0.1.0.aar",
+          "url": "app-lib-0.1.0.aar",
+          "size": 21151,
+          "sha512": "061132a772afc3fc0a1ec727f4496847f0d3fff9d9cb1fca6aea40d9fb6469b895b4c2870ff9f1f2327545395666091c382da07e1b175a4eea5b025a8db6f6a1",
+          "sha256": "09f812ca52dbe4310525cdf0d12d8239c91f5aa2335950f77e06435cebfd7e4d",
+          "sha1": "b30e44163b911c9198b4c6abcc6a53f8796bbff9",
+          "md5": "60d1b1b9646253154a51ba626c73b279"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "app-lib-0.1.0-sources.jar",
+          "url": "app-lib-0.1.0-sources.jar",
+          "size": 5883,
+          "sha512": "f3ece4d897ca23d4d264aa2a0b7d673a0d03c11b7a85be46fd65b94563ac1ba15c8075c84092bddbd61509f77a3a142a6e4c2c6106e34a4df9d8208f09da6f7b",
+          "sha256": "0e38e5c9a9336a47f9d1b001b111f6db633c61988d9aad49cbe243a3961ef58e",
+          "sha1": "6bdf982b270abaa3a88ca37fc1816748af30058c",
+          "md5": "ebcad82d1b7575dc6c7b9cea278fcbdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.android.rustmdm</groupId>
+  <artifactId>rust-mdm-lib</artifactId>
+  <versioning>
+    <latest>1.0_202611131408</latest>
+    <release>1.0_202611131408</release>
+    <versions>
+      <version>1.0_202611131404</version>
+      <version>1.0_202611131405</version>
+      <version>1.0_202611131408</version>
+    </versions>
+    <lastUpdated>20261113060816</lastUpdated>
+  </versioning>
+</metadata>
